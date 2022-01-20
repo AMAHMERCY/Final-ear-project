@@ -1,3 +1,4 @@
+
 <!Doctype html>
 <html lang="en">
   <head>
@@ -22,26 +23,39 @@
   </a>
 </nav>
     </header>
-    <div class="container">
+    
+      <div class="container">
   <div class="row">
     <div class="col">
-      <form action="/my-handling-form-page" method="post" class="form">
-        <h1>Log in to your account</h1>
-  
+      <form action="/" method="ST_login.html">
+  <div class="mb-3">
+    <label for="exampleInputName" class="form-label">Full Name:</label>
+    <input type="text" class="form-control" id="exampleInputName" aria-describedby="nameHelp">
+  </div>
     <label for="exampleInputEmail1" class="form-label">School Email:</label>
-    <input type="email" class="form-control forminput" id="exampleInputEmail1" aria-describedby="emailHelp" required>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
 
       <label for="exampleInputReg" class="form-label">Registration number:</label>
-    <input type="text" class="form-control forminput" id="exampleInputReg" aria-describedby="regHelp" required>
+        <input type="text" class="form-control" id="exampleInputReg" aria-describedby="regHelp">
 
+      <label for="exampleInputDept" class="form-label">Department:</label>
+    <input type="text" class="form-control" id="exampleInputDept" aria-describedby="deptHelp">
+
+  
   <label for="inputPassword5" class="form-label">Password</label>
-<input type="password" id="inputPassword5" class="form-control forminput" aria-describedby="passwordHelpBlock" required>
+<input type="password" id="inputPassword5" class="form-control" aria-describedby="passwordHelpBlock">
 <div id="passwordHelpBlock" class="form-text">
   Your password must be 8-20 characters long, contain letters and numbers, and must not contain spaces, special characters, or emoji.
 </div>
-  <button type="submit" class="btn btn-primary loginbtn">Submit</button>
+ <a href="ST_login.html"> <button type="submit" class="btn btn-primary submitbtn">Submit</button></a>
 </form>
-
+    </div>
+    <div class="col">
+       <img src="./images/studying-cuate.PNG" class="signup-image">
+    </div>
+    
+  </div>
+</div>
     </div>
 
 <link rel="stylesheet" href="./javascript/main.js" type="text/javascript">
